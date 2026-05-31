@@ -1,0 +1,565 @@
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* ================= BACKGROUND IMAGE ================= */
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+.bg-img {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* ================= HEADER ================= */
+.header {
+    height: 100px;
+    padding: 0 80px;
+    background: rgba(46, 122, 50, 0.95);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-title {
+    font-size: 65px;
+    font-weight: 700;
+    color: #000;
+}
+
+.header nav a {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 30px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    font-weight: bold;
+}
+
+/* ================= FRONT CONTENT ================= */
+.front-content {
+    min-height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 70%;
+    text-align: center;
+}
+
+/* ================= HERO TEXT ================= */
+.hero-text .faint-bg {
+    padding: 20px 80px;
+    background: rgba(255,255,255,0.7);
+    border-radius: 14px;
+    font-size: 38px;
+    font-weight: 700;
+    color: #1e40af;
+}
+
+/* ================= BUTTONS ================= */
+.btn-group-faint {
+    display: flex;
+    gap: 25px;
+    padding: 25px 50px;
+    background: rgba(255,255,255,0.7);
+    border-radius: 16px;
+}
+
+.btn {
+    padding: 16px 40px;
+    font-size: 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.register-btn {
+    background: #2f3e46;
+    color: #fff;
+}
+
+.login-btn {
+    background: #2e7d32;
+    color: #fff;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* ================= YEAR ================= */
+.year-text {
+    position: fixed;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.year-faint {
+    padding: 12px 22px;
+    background: rgba(255,255,255,0.7);
+    border-radius: 10px;
+    font-size: 36px;
+    font-weight: 700;
+    color: red;
+}
+
+
+
+
+
+
+/*about*/
+/* ABOUT PAGE */
+.page-box {
+    max-width: 1500px;
+    margin: auto;
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.about-text {
+    font-size: 35px;
+    line-height: 1.8;
+    margin-bottom: 18px;
+    color: blue;
+    text-align: center;
+}
+
+.section-heading {
+    margin: 25px 0 35px;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.feature-list li {
+    padding: 8px 0;
+   color:black;
+    font-size: 30px;
+    border-bottom: 1px dashed #c8e6c9;
+}
+
+
+
+/*contact  info*/
+.contact-box {
+    background: #f1f8e9;
+    border-left: 5px solid #2e7d32;
+    padding: 15px 20px;
+    border-radius: 8px;
+
+    max-width: 400px;
+    margin: 20px auto;
+
+    text-align: center;
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+    display: block;   /* 👉 important */
+}
+.contact-box strong {
+    color: #2e7d32;
+    font-size: 16px;
+}
+
+.contact-box p {
+    margin: 5px 0;
+    font-size: 15px;
+    color: #333;
+}
+
+
+/* ACTIVE NAV */
+nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #ffffff;
+    left:50%;
+    text-align:center;
+}
+
+/* SERVICES TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.services-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #2e7d32;
+}
+
+.table-box {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.table-box th {
+    background-color: #2e7d32;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+.table-box td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.table-box tr:hover {
+    background-color: #f1f8e9;
+}
+
+.table-title {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+   color:black;
+  font:40px;
+}
+
+.footer {
+  margin-top:5%;
+  text-align:center;
+  font-size:40px
+}
+
+
+
+
+.title-bar {
+  color:black;
+  margin-left:46%;
+  font-size:50px;
+}
+
+
+
+
+/* =========================
+   LOGIN & REGISTER PAGES
+   ========================= */
+
+
+
+
+
+/* Page wrapper (header खाली center) */
+.form-section {
+    min-height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* zoom stable */
+    padding: 40px 15px;
+
+    background: linear-gradient(
+        rgba(255,255,255,0.85),
+        rgba(255,255,255,0.85)
+    );
+}
+
+/* =========================
+   FORM BOX (MAIN CARD)
+   ========================= */
+.form-box {
+    width: min(440px, 92vw);   /* 🔥 zoom fix */
+    background: rgba(255,255,255,0.88);
+    padding: 38px 42px;
+    border-radius: 18px;
+    box-shadow: 0 14px 38px rgba(0,0,0,0.18);
+    text-align: center;
+
+    /* ⭐ MOST IMPORTANT (zoom issue fix) */
+    transform: translateZ(0);
+}
+
+/* =========================
+   HEADING
+   ========================= */
+.form-box h2 {
+    margin-bottom: 8px;
+    font-size: 30px;
+    color: #2e7d32;
+    font-weight: 700;
+}
+
+/* Subtitle */
+.form-subtext {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 24px;
+}
+
+/* =========================
+   INPUT GROUP
+   ========================= */
+.form-group {
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #2e7d32;
+    box-shadow: 0 0 0 2px rgba(46,125,50,0.18);
+}
+
+/* =========================
+   SUBMIT BUTTON
+   ========================= */
+.full-btn {
+    width: 100%;
+    padding: 15px;
+    border-radius: 32px;
+    border: none;
+    background: #2e7d32;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.full-btn:hover {
+    background: #256628;
+    transform: translateY(-2px);
+}
+
+/* =========================
+   FOOTER TEXT
+   ========================= */
+.form-footer-text {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.form-footer-text a {
+    color: #2e7d32;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.form-footer-text a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   MOBILE RESPONSIVE
+   ========================= */
+@media (max-width: 480px) {
+    .form-box {
+        padding: 30px 26px;
+    }
+
+    .form-box h2 {
+        font-size: 26px;
+    }
+}
+
+
+
+.btn-my-bookings{
+    background: linear-gradient(135deg, #16a34a, #15803d);
+    color: #fff;
+
+    /* 🔼 size वाढवण्यासाठी */
+    padding: 20px 30px;      /* आधी 10px 18px होतं */
+    font-size: 18px;         /* आधी 14px होतं */
+    font-weight: 600;
+
+    border-radius: 30px;     /* थोडा premium look */
+    text-decoration: none;
+
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+}
+
+.btn-my-bookings:hover{
+    background: linear-gradient(135deg, #15803d, #166534);
+    transform: translateY(-3px); /* hover ला उठल्यासारखं */
+}
+
+
+
+.btn {
+    display:inline-block;
+    padding:12px 22px;
+    border:none;
+    background:#2e7d32;
+    color:#fff;
+    cursor:pointer;
+    border-radius:6px;
+    text-decoration:none;
+    font-size:16px;
+    margin-right:10px;
+}
+
+.btn:hover{
+    background:#256628;
+}
+
+.btn-back {
+    display:inline-block;
+    background:gray;
+    text-decoration:none;
+    color:#fff;
+    padding:12px 22px;
+    border-radius:6px;
+    margin-top:10px;
+}
+
+
+
+
+
+<style>
+body{
+    margin:0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(135deg,#a8edea,#fed6e3);
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.booking-box{
+    background:white;
+    width:420px;
+    padding:35px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 15px 40px rgba(0,0,0,0.2);
+}
+
+.booking-box h2{
+    color:#2e8b57;
+    margin-bottom:10px;
+}
+
+.line{
+    height:3px;
+    width:70px;
+    background:#2e8b57;
+    margin:10px auto 25px;
+    border-radius:5px;
+}
+
+.info{
+    text-align:left;
+    margin-bottom:20px;
+}
+
+.info p{
+    font-size:16px;
+    margin:12px 0;
+    color:#333;
+}
+
+.info span{
+    font-weight:bold;
+}
+
+.price{
+    font-size:28px;
+    color:#27ae60;
+    font-weight:bold;
+    margin:15px 0;
+}
+
+.confirm-btn{
+    width:100%;
+    padding:14px;
+    font-size:18px;
+    border:none;
+    border-radius:30px;
+    background:linear-gradient(135deg,#2ecc71,#27ae60);
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.confirm-btn:hover{
+    transform:scale(1.05);
+    box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+</style>
+
+
+
+
+
+
+.top-bar{
+position:absolute;
+top:20px;
+right:40px;
+}
+
+.btn-my-bookings{
+background:#2e7d32;
+color:white;
+padding:10px 18px;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+}
+
+.btn-my-bookings:hover{
+background:#1b5e20;
+}
