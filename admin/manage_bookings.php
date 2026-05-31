@@ -124,7 +124,7 @@ font-weight:bold;
 <th>Booking ID</th>
 <th>User Name</th>
 <th>Service</th>
-<th>Status</th>
+<th>Payment Status</th>
 <th>Booking Date</th>
 <th>Action</th>
 </tr>
