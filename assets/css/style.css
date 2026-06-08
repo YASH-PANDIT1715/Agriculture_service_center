@@ -1,3 +1,19 @@
+@media (max-width:768px){
+
+.hero-text{
+font-size:18px;
+}
+
+button{
+padding:12px 20px;
+font-size:16px;
+}
+
+}
+
+
+
+
 /* ================= RESET ================= */
 * {
     margin: 0;
