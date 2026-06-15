@@ -45,3 +45,19 @@ agriculture_service_center/
 ├── index.php
 ├── about.php
 └── README.md
+
+
+
+## Screenshots
+
+### Login Page
+![Login Page](images/login_page.png)
+
+### Service Booking
+![Service Booking](images/service_booking.png)
+
+### Dashboard
+![Dashboard](images/dashboard.png)
+
+### My Bookings
+![My Bookings](images/my_bookings.png)
