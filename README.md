@@ -33,7 +33,6 @@ Agriculture Service Center is a Full Stack Web Application developed to provide 
 
 ## Project Structure
 
-```text
 agriculture_service_center/
 ├── admin/
 ├── user/
