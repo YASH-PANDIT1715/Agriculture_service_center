@@ -53,11 +53,11 @@ agriculture_service_center/
 ### Login Page
 ![Login Page](images/login_page.png)
 
+### Registration Page
+![Registration Page](images/registration_page.png)
+
 ### Service Booking
 ![Service Booking](images/service_booking.png)
-
-### Dashboard
-![Dashboard](images/dashboard.png)
 
 ### My Bookings
 ![My Bookings](images/my_bookings.png)
